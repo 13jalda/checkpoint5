@@ -6,11 +6,11 @@ for i in range(1,10):
 def suma(a,b,c):
   return a+b+c
 
-
+suma(5,6,8)
 
 # Cree una función lambda con la misma funcionalidad que la función de suma que acaba de crear.
 suma = lambda a,b,c: a+b+c
-print(suma)
+print(suma(5,6,8))
 
 
 
